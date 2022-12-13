@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'login_test.dart';
 import 'loginscreen.dart';
+import 'messenger_screen.dart';
 
 void main() {
   runApp(MyApp()) ;
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp
         (
      // home: LoginScreen(),
-      home: Login_test(),
+      home: MessangerScreen(),
       debugShowCheckedModeBanner: false,
 
          );
